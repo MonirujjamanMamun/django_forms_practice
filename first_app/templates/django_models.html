@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if all in data %}
+{{data}}
+
+{% else %}
+<h1>No data found</h1>
+{% endif %}
+{% endblock content %}
